@@ -4,40 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Danilo Cunha</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Meu Portfólio</h1>
+        <img id="logo" src="logo.png" alt="logo">
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Sobre Mim</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-    </nav>
-    <div class="sobre">
-        <section>
-            <h2>Sobre Mim</h2>
+    
+    <section class="sobre" id="sobre">
+        <h2>Sobre Mim</h2>
+        <div>
             <p><strong>Nome Completo:</strong> Danilo Cunha Von Beckerath </p>
             <p>Sou estudante de ciência da computação na Unijorge, atualmente no 3°/4° semestre. Tenho 20 anos, sou uma pessoa investigativa, curiosa e proativa. Tenho conhecimento em C, Python, Html e CSS.</p>
-        </section>
-    </div>
-    <div class="projetos">
-        <section id="projetos">
-            <h2>Projetos</h2>
+        </div> 
+    </section>
+    
+    <section class="projetos" id="projetos">
+        <h2>Projetos</h2>
+        <div>
             <ul>
-                <li><a href="https://github.com/DanBeck-Dev/Desen.Web/tree/main/Atividade%2027.03">TechFuture Summit</a></li>
+                <li><a href="https://github.com/DanBeck-Dev/Desen.Web/tree/main/Atividade%2027.03">TechFuture Summit (HTML/CSS)</a></li><br>
+                <li><a href="https://github.com/DanBeck-Dev/Desen.Web/tree/acafd2f54a99dfe5771ed809ccd0d2f889cb4d36/BellaShop">BellaShop (HTML)</a></li><br>
+                <li><a href="https://github.com/DanBeck-Dev/ProjetosC/tree/0586ccf5239bada4b616106d39293c806324d385/Jogo_da_Velha">Jogo da velha (C)</a></li><br>
             </ul>
-        </section>
-    </div>
-    <div class="contato">
-        <section id="contato">
-            <h2>Contato</h2> 
-            <a href="">Email</a>
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2>Contato</h2> 
+        <div class="contatogrid">
+            <div class="contatoitem">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=danilocunhavb@gmail.com&su=Contato&body=Olá%20Danilo" target="_blank">Email</a>
+            </div>
+            <div class="contatoitem">
+                <a href="https://github.com/DanBeck-Dev">GitHub</a>
+            </div>
+            <div class="contatoitem">
+                <a href="https://wa.me/5571984476803?text=Olá%20Danilo" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <p>&copy; 2025 Danilo Cunha. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
 </body>
 </html>
