@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BellaShop Online</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        h1, h2 {
+            color: black;
+        }
+        ul {
+            list-style-type: square;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid grey;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: white;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: blue;
+        }
+        .imagem {
+            display: flex;
+            justify-content: space-around; 
+            gap: 20px; 
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        #note {
+            height: 300px; 
+            
+        }
+        #mouse{
+            height: 300px;
+        }
+        #cell{
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BellaShop Online</h1>
+
+    <h2>Computadores</h2>
+    <ul>
+        <li>Notebook Dell Inspiron</li>
+        <li>PC Gamer Ryzen 7</li>
+        <li>MacBook Pro M1</li>
+    </ul>
+
+    <h2>Periféricos</h2>
+    <ul>
+        <li>Teclado Mecânico RGB</li>
+        <li>Mouse Gamer Logitech</li>
+        <li>Monitor Ultrawide LG</li>
+    </ul>
+
+    <h2>Smartphones</h2>
+    <ul>
+        <li>iPhone 14 Pro</li>
+        <li>Samsung Galaxy S23</li>
+        <li>Xiaomi Redmi Note 12</li>
+    </ul>
+
+    <h2>Software</h2>
+    <ul>
+        <li>Windows 11 Pro</li>
+        <li>Microsoft Office 365</li>
+        <li>Adobe Photoshop CC</li>
+    </ul>
+
+    <h2>Tabela de Preços e Características</h2>
+    <table>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Principais Características</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.dell.com/pt-br/shop/cty/pdp/spd/inspiron-15-3520-laptop/i3520w1014w?tfcid=31768715&gacd=9657105-15015-5761040-275878141-0&dgc=ST&cid=71700000114503108&gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KciTf7RxOhnnInu6TnyYI2NQCrs-62fyrdE7GGYGgnSL3pM0g9afWIaAlT3EALw_wcB&gclsrc=aw.ds" target="_blank">Notebook Dell Inspiron </a></td>
+            <td>R$ 4.199,00</td>
+            <td>Processador Intel i7, 16GB RAM, SSD 512GB</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.amazon.com.br/Mouse-Gamer-Logitech-G502-LIGHTSPEED/dp/B07DCSZV9Y/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1C7NERHZTRQKG&dib=eyJ2IjoiMSJ9.zaFX9FHx7hZ95UmO3K72wm5uh4cJ_1O39SP3lFelQT9u2-cFQss8Pm_I2impr0ucWseGCvS21042HUmA-lHl90eh3glbijYeGTdjilCB_pP-aJBsdPv_NQ68WRDevWuIneETMvj-jlC-fTU65CXHWEX5Ma0-a1r8xOHl6R0epqM8B4JIdzhNFmmmk76JULDj8KqKbE1k5OHJGa6y9k-bAk20cNBUxGnDunPZIXgPMuIw4zjw6QX9lX7iNTzSJfBGhcneMuY7jVjmbts_AdlK6IfOAQKcrf3r_dRpYAjhizE.TMn4Xj5VzR2mjQOAvXKZPiTS5NTPMf1zcUfwMwN4YCI&dib_tag=se&keywords=g502&qid=1741872274&sprefix=g502+%2Caps%2C392&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Mouse Gamer Logitech</a></td>
+            <td>R$ 592,04</td>
+            <td>Sensor óptico de alta precisão, 11 botões programáveis</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.mercadolivre.com.br/apple-iphone-14-pro-1-tb-preto-espacial-bom-recondicionado/p/MLB2000042449#polycard_client=search-nordic&searchVariation=MLB2000042449&wid=MLB3996006299&position=3&search_layout=stack&type=product&tracking_id=0410da3d-6443-4dec-8a77-a10b3f9a5948&sid=search" target="_blank">iPhone 14 Pro</a></td>
+            <td>R$ 5.993,55</td>
+            <td>Tela OLED 6.1", câmera 48MP, 1TB</td>
+        </tr>
+    </table>
+
+    <h2 id="imagens">Imagens dos Produtos</h2>
+    <div class="imagem">
+        <a href="https://www.dell.com/pt-br/shop/cty/pdp/spd/inspiron-15-3520-laptop/i3520w1014w?tfcid=31768715&gacd=9657105-15015-5761040-275878141-0&dgc=ST&cid=71700000114503108&gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KciTf7RxOhnnInu6TnyYI2NQCrs-62fyrdE7GGYGgnSL3pM0g9afWIaAlT3EALw_wcB&gclsrc=aw.ds" target="_blank">
+        <img id="note" src="notebook-inspiron-15-3520-black-gallery-10.avif" alt="Notebook Dell Inspiron">
+    </a>
+    <a href="https://www.amazon.com.br/Mouse-Gamer-Logitech-G502-LIGHTSPEED/dp/B07DCSZV9Y/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1C7NERHZTRQKG&dib=eyJ2IjoiMSJ9.zaFX9FHx7hZ95UmO3K72wm5uh4cJ_1O39SP3lFelQT9u2-cFQss8Pm_I2impr0ucWseGCvS21042HUmA-lHl90eh3glbijYeGTdjilCB_pP-aJBsdPv_NQ68WRDevWuIneETMvj-jlC-fTU65CXHWEX5Ma0-a1r8xOHl6R0epqM8B4JIdzhNFmmmk76JULDj8KqKbE1k5OHJGa6y9k-bAk20cNBUxGnDunPZIXgPMuIw4zjw6QX9lX7iNTzSJfBGhcneMuY7jVjmbts_AdlK6IfOAQKcrf3r_dRpYAjhizE.TMn4Xj5VzR2mjQOAvXKZPiTS5NTPMf1zcUfwMwN4YCI&dib_tag=se&keywords=g502&qid=1741872274&sprefix=g502+%2Caps%2C392&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">
+        <img id="mouse" src="mouselogitech.jpg" alt="Mouse Gamer Logitech">
+    </a>
+    <a href="https://www.mercadolivre.com.br/apple-iphone-14-pro-1-tb-preto-espacial-bom-recondicionado/p/MLB2000042449#polycard_client=search-nordic&searchVariation=MLB2000042449&wid=MLB3996006299&position=3&search_layout=stack&type=product&tracking_id=0410da3d-6443-4dec-8a77-a10b3f9a5948&sid=search" target="_blank">
+        <img id="cell" src="Iphone14pro.webp" alt="iPhone 14 Pro">
+    </a>
+    </div>
+    
+</body>
+</html>
