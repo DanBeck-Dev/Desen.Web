@@ -1,8 +1,20 @@
 body{
     background-color: black;
     color: white;
+    padding: 0;
+    font-size: 16;
 }
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+button{
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    background-color: gray;
 }
